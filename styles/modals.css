@@ -1,0 +1,127 @@
+/*бэкграунд фон для модального окна*/
+.modal-background {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    /* указываем z-индекс для корректного наслаивания */
+    z-index: 1100;
+}
+
+.success-modal-bg {
+    z-index: 199999;
+}
+
+
+/*модальное окно*/
+.modal-active {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #F8F8F8;
+    border-radius: 16px;
+    cursor: default;
+    padding: 68px 98px;
+}
+
+.law-info__modal-active {
+    padding: 55px 55px;
+}
+
+/*иконка закрытия*/
+.modal-close {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    cursor: pointer;
+    width: 22.63px;
+    height: 22.63px;
+}
+
+.modal-close__icon {
+    position: relative;
+    width: 22.63px;
+    height: 22.63px;
+}
+
+.modal-close__icon::before {
+    position: absolute;
+    left: -3px;
+    content: '';
+    width: 30px;
+    height: 2px;
+    background-color: #333333;
+    transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
+    transform: rotate(45deg);
+    top: 10px;
+}
+
+.modal-close__icon::after {
+    position: absolute;
+    left: -3px;
+    content: '';
+    width: 30px;
+    height: 2px;
+    background-color: #333333;
+    transform: rotate(-45deg);
+    top: 10px;
+}
+
+/* // иконка закрытия*/
+
+.modal-title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.confident__modal-title {
+    font-size: 25px;
+    margin-bottom: 29px;
+}
+
+.modal-text {
+    font-size: 12px;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.modal-paragraph + .modal-paragraph {
+    margin-top: 15px;
+}
+
+.modal-contact {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.modal-contact + .modal-contact {
+    margin-top: 20px;
+}
+
+.order__modal-active {
+    padding: 68px 68px;
+}
+
+.order__modal-wrapper {
+    column-gap: 50px;
+    margin-right: 0;
+    padding: 0;
+}
+
+.order__modal-content {
+    max-width: 341px;
+}
+
+.reviews-modal-active {
+    padding: 68px 35px;
+    min-width: 295px;
+}
+
+.review-modal-text {
+    height: 150px;
+    overflow-y: scroll;
+}

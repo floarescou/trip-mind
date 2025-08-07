@@ -1,0 +1,308 @@
+/*1047px - 1275px*/
+@media screen and (max-width: 1559px) {
+    /*<!--    секция главного экрана  -->*/
+    .hero__interactive-promo {
+        flex-direction: column;
+        row-gap: 30px;
+        margin-top: -415px;
+        margin-right: 50px;
+    }
+
+    .hero__interactive-actions--wrapper {
+        padding-bottom: 70px;
+    }
+}
+
+/*<!--    секция каталога туров   -->*/
+@media screen and (max-width: 1369px) {
+    .block-wrapper {
+        column-gap: 50px;
+    }
+}
+
+@media screen and (max-width: 1239px) {
+    .section-block {
+        padding: 100px 0;
+    }
+
+    /*<!--    секция главного экрана  -->*/
+    h1 {
+        max-width: 610px;
+    }
+}
+
+@media screen and (max-width: 1094px) {
+    /*<!--    секция главного экрана  -->*/
+    .hero__content {
+        padding-top: 60px;
+    }
+
+    .hero__content-interactive {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .hero__interactive-promo {
+        margin-right: 0;
+        flex-direction: row;
+        margin-top: 0;
+    }
+
+    .hero__content-offer {
+        margin-bottom: 40px;
+    }
+
+    h1 {
+        margin-bottom: 40px;
+    }
+
+    .hero__interactive-actions--wrapper {
+        padding-bottom: 40px;
+    }
+
+    .reviews__block-content {
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 1074px) {
+    .footer__content {
+        column-gap: 70px;
+    }
+}
+
+@media screen and (max-width: 994px) {
+    .section-block {
+        padding-bottom: 30px;
+    }
+
+    .block-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 30px;
+    }
+
+    .block-content {
+        max-width: 100%;
+    }
+
+    .block-content--desc {
+        margin-bottom: 35px;
+    }
+
+    .order__block-content--desc {
+        width: 100%;
+        margin-bottom: 15px !important;
+    }
+
+    .reviews__block-image {
+        order: 1;
+    }
+
+    .reviews__block-content {
+        order: 2;
+    }
+
+    .footer__content {
+        column-gap: 45px;
+    }
+
+    .footer__wrapper {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+}
+
+@media screen and (max-width: 865px) {
+    .block-image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .order__block-wrapper {
+        margin-right: 0;
+    }
+
+    .order__block-wrapper {
+        padding: 70px 0 52px 0;
+    }
+}
+
+
+@media screen and (max-width: 796px) {
+    .nav-menu {
+        margin-left: 110px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    /*<!--    секция главного экрана  -->*/
+    .hidden-item {
+        display: none;
+    }
+
+    .nav-menu {
+        /*margin-left: 80px;*/
+    }
+}
+
+
+@media screen and (max-width: 672px) {
+    .footer__content {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .footer__link {
+        text-align: center
+    }
+
+}
+
+@media screen and (max-width: 629px) {
+    /*<!--    секция главного экрана  -->*/
+    .menu__list {
+        column-gap: 30px;
+    }
+
+    h1 {
+        max-width: 521px;
+        font-size: 60px;
+        line-height: 80px;
+        margin-bottom: 25px;
+    }
+
+    .hero__offer-desc {
+        font-size: 21px;
+        line-height: 33px;
+    }
+
+    .hero__interactive-actions {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    .hero__interactive-actions--wrapper {
+        flex-direction: column;
+        row-gap: 30px;
+        align-items: flex-start;
+        padding-bottom: 0;
+    }
+
+    .hero__content-interactive {
+        row-gap: 40px;
+    }
+
+    /*<!--    секция каталога туров   -->*/
+    .block-image--item div {
+        display: none;
+    }
+
+    .block-image--item p {
+        bottom: 30px;
+        left: 30px;
+    }
+
+    .block-image--item svg {
+        bottom: 30px;
+        right: 30px;
+    }
+}
+
+@media screen and (max-width: 559px) {
+    /*<!--    секция главного экрана  -->*/
+    .nav-menu {
+        display: none;
+    }
+
+    .hero__interactive-promo {
+        display: none;
+    }
+
+    .hero__content {
+        padding-top: 20px;
+        padding-bottom: 100px;
+    }
+
+}
+
+@media screen and (max-width: 524px) {
+    .section-block {
+        padding: 60px 0;
+    }
+
+    .btn {
+        margin: 0 auto;
+    }
+
+    /*<!--    секция главного экрана  -->*/
+    .hero__interactive-actions {
+        flex-direction: column;
+        row-gap: 40px;
+        align-items: center;
+    }
+
+    .hero__interactive-actions--wrapper {
+        align-items: center;
+    }
+
+    .hero__content-offer {
+        text-align: center;
+    }
+
+    h1 {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .hero__offer-desc {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    h2 {
+        font-size: 35px;
+        line-height: 44px;
+    }
+
+    .block-content {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .order__block-form {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .reviews__block-image--item p {
+        width: 240px;
+    }
+}
+
+@media screen and (max-width: 369px) {
+    /*<!--    секция главного экрана  -->*/
+    h1 {
+        max-width: 300px;
+        font-size: 49px;
+        line-height: 60px;
+    }
+
+    .hero__offer-desc {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .hero__interactive-btn {
+        width: 275px;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+
+}
+

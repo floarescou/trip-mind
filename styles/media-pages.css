@@ -1,0 +1,27 @@
+@media screen and (max-width: 1163px) {
+    .page-order__block-wrapper {
+        flex-direction: column;
+        row-gap: 40px;
+    }
+
+    .page-block-description {
+        max-width: 100%;
+    }
+
+    .page-order__block-form {
+        align-items: flex-start;
+    }
+}
+
+@media screen and (max-width: 819px) {
+    .tours__catalog{
+        padding-bottom: 70px;
+    }
+}
+
+@media screen and (max-width: 524px) {
+    .page-block-description {
+        text-align: center;
+    }
+}
+

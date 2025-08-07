@@ -1,0 +1,135 @@
+@media screen and (max-width: 1222px) {
+    /*<!--    модальное окно при успешном заполнении формы    -->*/
+    .success-modal-active {
+        text-align: center;
+    }
+
+    .success-modal-title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 1183px) {
+    /*<!--    модальное окно для пункта меню 'контакты'-->*/
+    .modal-contacts {
+        width: 270px;
+    }
+}
+
+@media screen and (max-width: 994px) {
+    .order__modal-active {
+        padding: 40px 55px;
+    }
+
+    .order-modal-title {
+        font-size: 30px;
+        line-height: 36px;
+        margin-bottom: 20px;
+    }
+
+    .order__modal-wrapper {
+        row-gap: 20px;
+        padding: 0;
+    }
+
+    .order-modal-desc {
+        font-size: 14px;
+        margin-bottom: 0 !important;
+    }
+}
+
+@media screen and (max-width: 887px) {
+    .review-modal-title {
+        line-height: 41px;
+    }
+
+    .review-modal-text {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 875px) {
+    .video-modal-active {
+        padding: 44px 48px;
+    }
+}
+
+@media screen and (max-width: 798px) {
+    /*<!--    модальное окно при успешном заполнении формы    -->*/
+    .success-modal-active {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+
+@media screen and (max-width: 762px) {
+    iframe {
+        width: 440px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 646px) {
+    /*<!--    модальное окно при успешном заполнении формы    -->*/
+    .modal-title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .success-modal-text {
+        font-size: 14px;
+    }
+
+    iframe {
+        width: 300px;
+        height: 168px;
+    }
+}
+
+@media screen and (max-width: 547px) {
+    /*    <!--    модальное окно для пункта меню 'контакты'-->*/
+    .contacts-modal-active {
+        padding: 68px 50px;
+    }
+}
+
+@media screen and (max-width: 435px) {
+    .video-modal-active {
+        padding: 65px 20px;
+    }
+
+    .confident__modal-title {
+        font-size: 19px;
+        line-height: 26px;
+    }
+
+    .law-info__modal-active {
+        padding: 55px 20px;
+    }
+}
+
+@media screen and (max-width: 416px) {
+    .modal-contact {
+        font-size: 14px;
+    }
+
+    .modal-contacts {
+        width: 214px;
+    }
+
+    .contacts-modal-active {
+        padding: 68px 30px;
+    }
+}
+
+@media screen and (max-width: 384px) {
+    .order__modal-active {
+        padding: 40px 35px;
+    }
+
+    iframe {
+        width: 250px;
+        height: 141px;
+    }
+}

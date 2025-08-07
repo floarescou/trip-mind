@@ -1,0 +1,186 @@
+.page-menu__link {
+    color: #333333;
+}
+
+.page-menu-icon {
+
+}
+
+.page-menu-icon {
+    position: relative;
+    width: 30px;
+    height: 2px;
+    background-color: #333333;
+}
+
+.page-menu-icon::before {
+    position: absolute;
+    left: 0;
+    top: -10px;
+    content: '';
+    width: 30px;
+    height: 2px;
+    background-color: #333333;
+    transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
+}
+
+.page-menu-icon::after {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    content: '';
+    width: 30px;
+    height: 2px;
+    background-color: #333333;
+    transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
+}
+
+.main {
+    padding: 60px 0 100px 0;
+    color: var(--main-color);
+}
+
+.page-block-wrapper {
+    justify-content: flex-start;
+    column-gap: 162px;
+}
+.page-block-wrapper + .page-block-wrapper {
+    margin-top: 60px;
+}
+
+.page-block-content {
+    max-width: 455px;
+}
+
+.page-block--content-title {
+    margin-bottom: 0;
+}
+
+.page-block--content p {
+    margin-bottom: 0;
+}
+.page-block-content-desc {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: var(--main-color);
+    margin-top: 22px;
+    margin-bottom: 0;
+}
+
+.page-block-content-desc span {
+    font-weight: 500;
+}
+
+.block-description {
+    max-width: 830px;
+}
+
+.block-description__title {
+    font-family: var(--second-font);
+    font-size: 36px;
+    line-height: 48px;
+    margin-bottom: 40px;
+}
+
+.block-description__text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+}
+
+.block-description__text + .block-description__text {
+    margin-top: 25px;
+}
+
+.block-description__text-title {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.block-description__text-desc {
+    font-weight: 500;
+}
+
+.block-description__text ul li {
+    list-style: inside;
+}
+
+.page-order__block-wrapper {
+    align-items: flex-start;
+}
+
+.page-order__block-form {
+    padding: 0;
+    flex-direction: column;
+}
+
+.page-order__block-content {
+    max-width: 565px;
+}
+
+.page-order-title {
+    margin-bottom: 34px;
+}
+
+.page-order-desc {
+    width: 500px;
+    margin-bottom: 40px;
+}
+
+.pages-order {
+    max-width: 401px;
+}
+
+.page-order__block-form {
+    max-width: 500px;
+}
+
+.page-order__block-form label {
+    width: 100%;
+}
+
+/*страница каталога всех туров*/
+.tours__main {
+    padding: 40px 0 0 0 ;
+}
+.tours__catalog {
+    padding-bottom: 140px;
+}
+.tours__catalog-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.tours__catalog-items {
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: flex-end;
+}
+
+.tours__catalog-item {
+    width: 380px;
+    height: 292px;
+}
+
+.tours__catalog_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

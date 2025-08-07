@@ -1,0 +1,76 @@
+/*transition: var(--hover-behavior);*/
+/*===   общие изменения в кнопках   ===*/
+.btn:hover {
+    background-color: var(--accent-color);
+    color: var(--accent-text-color);
+}
+
+/*===   изменение цвета логотипа в хэдере и футере   ===*/
+.logo svg:hover .white-color, .logo svg:hover .black-color {
+    fill: var(--accent-color);
+}
+
+/*===   нижнее подчеркивание пунктов меню в хэдере   ===*/
+.menu__item:hover .menu__link {
+    border-bottom-color: var(--second-color);
+}
+
+.menu__item--pages:hover .menu__link--pages {
+    border-bottom-color: #333333;
+}
+
+/*===   изменения в кнопке главного экрана   ===*/
+.hero__interactive-btn:hover, .order__block-content--btn:hover {
+    color: var(--second-color);
+    box-shadow: 0 2px 10px 6px rgba(221, 148, 40, 0.51);
+}
+
+/*===   изменение блока 'посмотреть видео'   ===*/
+.hero__interactive-video:hover .hero__interactive-video-icon svg g,
+.hero__interactive-video:hover .hero__interactive-video-icon svg path {
+    opacity: 1;
+}
+
+.hero__interactive-video:hover .hero__interactive-video-desc {
+    color: var(--second-color);
+}
+
+/*===   изменение цвета социальных иконок   ===*/
+.hero__interactive-socials--item svg:hover .white-color {
+    fill: var(--accent-color);
+}
+
+/*===   смещение стрелки в блоках с превью картинками   ===*/
+.hero__interactive-promo--item:hover svg, .block-image--item:hover svg {
+   margin-right: 15px;
+}
+
+/*===   для хрома задержка изменения фона при введении данных   ===*/
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+    transition: background-color 0s 600000s, color 0s 600000s !important;
+}
+
+.footer__link:hover {
+    color: #333333;
+}
+
+.footer__socials-item:hover svg path {
+    fill: var(--accent-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
